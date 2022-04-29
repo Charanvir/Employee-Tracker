@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/Charanvir/Employee-Tracker#readme",
   "dependencies": {
-    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
+    "console.table": "^0.10.0",
     "jest": "^28.0.2"
   }
 }
