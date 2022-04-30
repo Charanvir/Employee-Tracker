@@ -23,14 +23,14 @@ VALUES
     ('Quality Assurance Team Leader', 80000, 3),
     ('Quality Assurance Analyst', 70000, 3),
     ('Quality Assurance Tester', 75000, 3),
-    ('Marketing Team Leader', 100000, 4),
-    ('Marketing', 75000, 4),
-    ('Human Resources Team Leader', 80000, 5),
-    ('Talent Management', 80000, 5),
-    ('Training and Development', 75000, 5),
-    ('Compensation and Benefits', 75000, 5),
-    ('Laywer', 135000, 6),
-    ('Sales Representative', 80000, 7);
+    ('Marketing Team Leader', 100000, 5),
+    ('Marketing', 75000, 5),
+    ('Human Resources Team Leader', 80000,6),
+    ('Talent Management', 80000,6),
+    ('Training and Development', 75000,6),
+    ('Compensation and Benefits', 75000,6),
+    ('Laywer', 135000, 7),
+    ('Sales Representative', 80000, 8);
 
 INSERT INTO employees (first_name, last_name, roles_id, manager_id)
 VALUES
