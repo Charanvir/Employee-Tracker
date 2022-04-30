@@ -1,6 +1,6 @@
 -- This page will insert the perliminary data into the database, potentially will be used after when application is compelted
 -- template data at the moment
-INSERT INTO departments (department_name)
+INSERT INTO departments (name)
 VALUES
     ('UX Team'),
     ('Backend Team'),

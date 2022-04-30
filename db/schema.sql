@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS departments;
 -- This this table will have no dependencies, it will be created first
 CREATE TABLE departments (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    department_name VARCHAR(30) NOT NULL
+    name VARCHAR(30) NOT NULL
 );
 
 -- This table is only dependent upon departments and will be created next
