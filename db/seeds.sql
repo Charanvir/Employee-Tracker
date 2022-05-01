@@ -2,60 +2,29 @@
 -- template data at the moment
 INSERT INTO departments (name)
 VALUES
-    ('UX Team'),
-    ('Backend Team'),
-    ('Quality Assurance'),
-    ('Accounting'),
-    ('Marketing'),
-    ('Human Resources'),
-    ('Legal'),
-    ('Sales');
+    ('Backend Department'),
+    ('Frontend Department'),
+    ('Full Stack Department'),
+    ('Quality Assurance Department');
 
 INSERT INTO roles (title, salary, department_id)
 VALUES 
-    ('UX Team Leader', 130000, 1),
-    ('UX Researcher', 110000, 1),
-    ('UX Designer', 90000, 1),
-    ('Frontend Developers', 90000, 1),
-    ('Backend Team Leader', 150000, 2),
-    ('Middle-stack developers', 120000, 2),
-    ('Backend Engineer', 120000, 2),
-    ('Quality Assurance Team Leader', 80000, 3),
-    ('Quality Assurance Analyst', 70000, 3),
-    ('Quality Assurance Tester', 75000, 3),
-    ('Marketing Team Leader', 100000, 5),
-    ('Marketing', 75000, 5),
-    ('Human Resources Team Leader', 80000,6),
-    ('Talent Management', 80000,6),
-    ('Training and Development', 75000,6),
-    ('Compensation and Benefits', 75000,6),
-    ('Laywer', 135000, 7),
-    ('Sales Representative', 80000, 8);
+    ('Backend Team Lead', 130000, 1),
+    ('Backend Engineer', 110000, 1),
+    ('Frontend Team Lead', 90000, 2),
+    ('Frontend Engineer', 90000, 2),
+    ('Full Stack Team Lead', 150000, 3),
+    ('Full Stack Engineer', 120000, 3),
+    ('Quality Assurance Team Lead', 120000, 4),
+    ('Quality Assurance', 120000, 4);
 
 INSERT INTO employees (first_name, last_name, roles_id, manager_id)
 VALUES
     ('Manveer', 'Sohal', 1, null),
-    ('Reeva', 'Sierra', 2, 1),
-    ('Roshan', 'Shields', 3, 1),
-    ('Yousaf', 'Hastings', 4, 1),
-    ('Chace', 'Khan', 4, 1),
+    ('Gurvir', 'Sohal', 2, 1),
+    ('Yash', 'Pabla', 3, null),
+    ('Joe', 'Samra', 4, 3),
     ('Charanvir', 'Singh', 5, null),
-    ('Augustus', 'Pickett', 6, 6),
-    ('Karolina', 'Merritt', 6, 6),
-    ('Kaci', 'Hackett', 7, 6),
-    ('Ace', 'Souther', 7, 6),
-    ('Franklyn', 'Medina', 7, 6),
-    ('Gurvir', 'Sohal', 8, null),
-    ('Franklyn', 'Medina', 9, 12),
-    ('Chelsea', 'Morin', 10, 12),
-    ('Kishan', 'Bautista', 10, 12),
-    ('Simrin', 'Singh', 11, null),
-    ('Cynthia', 'Browning', 12, 16),
-    ('Gagandeep', 'Singh', 13, null),
-    ('Aahil', 'Wade', 14, 18),
-    ('Elly', 'Leal', 15, 18),
-    ('Izaak', 'Curran', 16, 18),
-    ('Shahid', 'Boyce', 17, null),
-    ('Sannah', 'Broadhurst', 17, null),
-    ('Ahmet', 'Gates', 18, null),
-    ('Faris', 'Hail', 18, null);
+    ('Randeep', 'Singh', 6, 5),
+    ('Simrin', 'Singh', 7, null),
+    ('Ptaps', 'Deol', 8, 7);

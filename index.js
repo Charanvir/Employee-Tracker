@@ -1,3 +1,3 @@
-const initiateApplication = require("./lib/main")
+const initialPrompt = require("./lib/main")
 
-new initiateApplication().initialPrompt()
+initialPrompt()
