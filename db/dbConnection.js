@@ -7,9 +7,9 @@ const credentials = require("./credentials")
 const db = mysql.createConnection(
     {
         host: '127.0.0.1',
-        // Your MySQL username,
+        // MySQL username,
         user: credentials.user,
-        // Your MySQL password
+        // MySQL password
         password: credentials.password,
         database: 'company'
     },
