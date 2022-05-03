@@ -70,6 +70,8 @@ The following images show the application being used:
 
 The following is a link to a video which shows how the application is used: [Employee Tracker Walkthrough Video](https://vimeo.com/705312686)
 
+The following is a link to a video which shows the additional features for this application: [Employee Tracker Additional Features Walkthrough Video](https://vimeo.com/705617950)
+
 
 ## Contributing
 ***
